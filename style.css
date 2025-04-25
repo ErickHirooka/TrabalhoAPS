@@ -45,6 +45,8 @@ a:hover {
 
 .logo-img {
   width: 120px;
+  max-height: 50px; /* Ajuste esse valor conforme seu gosto */
+  width: auto;
   height: auto;
 }
 
