@@ -7,8 +7,10 @@
 }
 
 body {
-  font-size: 1.4rem;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f3fdf4;
+  color: #333;
 }
 
 a {
