@@ -42,8 +42,11 @@ a:hover {
 }
 
 .navigation {
-  display: flex;
-  gap: 16px;
+   margin-left: 20px;
+  text-decoration: none;
+  color: #2e7d32;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
 .banner {
@@ -52,15 +55,14 @@ a:hover {
 }
 
 .banner .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 600px;
+   background: linear-gradient(to right, #a5d6a7, #dcedc8);
+  padding: 60px 0;
+  text-align: center;
 }
 
 .h1 {
-  font-size: 3.5rem;
+  font-size: 48px;
+  color: #2e7d32;
 }
 
 .slogan {
