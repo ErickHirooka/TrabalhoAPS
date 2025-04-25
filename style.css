@@ -64,23 +64,28 @@ a:hover {
 }
 
 .slogan {
-  font-size: 2rem;
+  font-size: 20px;
+  color: #4e944f;
+  margin-top: 10px;
 }
 
 .main {
-  padding: 30px 0;
+  padding: 40px 0;
 }
 
 .h2 {
-  margin: 50px 0 30px;
+   font-size: 28px;
+  margin-top: 40px;
+  color: #33691e;
 }
 
 .imgs-main {
   width: 100%;
-  max-width: 900px;
-  aspect-ratio: 2/1;
-  object-fit: cover;
-  border-radius: 8px;
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .paragraph {
