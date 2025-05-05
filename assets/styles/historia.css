@@ -82,16 +82,13 @@ a {
 .right {
   width: 50%;
   margin-top: 84px;
- 
 }
 
 .left {
-  height: 430px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   background-color: var(--primary-color);
-  
+  border-radius: 8px;
 }
 
 .right {
@@ -100,7 +97,7 @@ a {
 
 .h1 {
   font-size: 2.75rem;
-  color: var(--light-color); 
+  color: var(--light-color);
   margin-left: 10%;
   margin-top: 5%;
 }
@@ -119,7 +116,6 @@ a {
   max-width: 590px;
   height: 400px;
   margin-right: -43px;
-  
 }
 
 /* Main - Conteúdo principal da página*/
@@ -148,14 +144,11 @@ a {
 
 .h2 {
   font-size: 2.25rem;
+  margin-bottom: 36px;
   text-align: left;
-  color: black;
-  margin-left: 7%;
-  display: block;
-  white-space: nowrap;
-  overflow: hidden;
-
+  color: var(--secondary-color);
 }
+
 .texto-basico1 {
   font-size: 1.25rem;
   line-height: 1.8;
@@ -171,10 +164,10 @@ a {
   font-size: 1.25rem;
   line-height: 1.8;
   color: var(--dark-color);
-
 }
 .linha-do-tempo {
-  width: 100%;  
+  width: 100%;
+  margin-top: 100px;
 }
 /* Footer - rodapé */
 .footer {
