@@ -71,7 +71,7 @@ a {
 /* Banner - Sessão da intro */
 .banner {
   background-color: var(--primary-color);
-  height: 506px;
+  height: 600px;
 }
 
 .banner .container {
