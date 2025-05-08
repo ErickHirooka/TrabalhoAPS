@@ -1,0 +1,198 @@
+/* Importando uma fonte do google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* Variáveis*/
+:root {
+  --primary-color: #006241;
+  --secondary-color: #32462f;
+  --dark-color: #262626;
+  --light-color: #ffff;
+}
+/* Reset Básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Estilos Gerais */
+body {
+  font-family: "Open Sans", sans-serif;
+  color: var(--dark-color);
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+
+.container {
+  width: 100%;
+  max-width: 1150px;
+  margin: auto;
+}
+
+/* Header - Menu */
+.header {
+  background-color: var(--primary-color);
+  height: 85px;
+}
+
+.header .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.navigation {
+  display: flex;
+  gap: 20px;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+.link-menu {
+  color: var(--light-color);
+  transition: color 0.3s ease;
+  position: relative;
+}
+
+.link-menu:hover::after {
+  content: "";
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+  background-color: white;
+  position: absolute;
+  bottom: -25px;
+  right: 0;
+}
+
+/* Banner - Sessão da intro */
+.banner {
+    height: 506px;
+}
+  
+.banner .container {
+    display: flex;
+    height: 100%;
+}
+  
+.left{
+    margin-top: 84px;
+}
+    
+  
+.left {
+    height: 333px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 10%
+}
+  
+.h1 {
+    font-size: 2.75rem;
+    color: var(--dark-color);
+    text-align: center;
+}
+
+.h1 {
+  font-size: 2.75rem;
+  color: var(--dark-color);
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.texto-intro {
+  color: var(--dark-color);
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-bottom: 40%;
+  margin-top: 5%;
+}
+
+.img-banner {
+  width: 100%;
+  max-width: 590px;
+  height: 400px;
+  margin-right: -43px;
+}
+
+/* Main - Conteúdo principal da página*/
+.main {
+  padding-top: 120px;
+}
+
+.section {
+  margin-bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.fundo-verde {
+  width: 117%;
+  max-width: 1800px;
+  height: 500px;
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  margin-left: -100px;
+  margin-top: -10px;
+  text-align: justify;
+  margin-right: 100px;
+}
+
+.h2 {
+  font-size: 2.25rem;
+  margin-bottom: 36px;
+  text-align: left;
+  color: var(--secondary-color);
+}
+
+.texto-basico1 {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: var(--dark-color);
+}
+
+.texto-basico {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: var(--dark-color);
+}
+.texto-basico2 {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: var(--dark-color);
+}
+.linha-do-tempo {
+  width: 100%;
+  margin-top: 100px;
+}
+/* Footer - rodapé */
+.footer {
+  margin-top: 50px;
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  text-align: center;
+  height: 85px;
+}
+.titulo1 {
+  margin-top: 35px;
+}
+
+.footer .container {
+  place-content: center;
+  height: 100%;
+}
+
+hr{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* Responsividade - TODO */
+
+/* Consegue se manter até 1280. Menor que isso terá que ser ajustado */
