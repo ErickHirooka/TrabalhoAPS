@@ -3,16 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>APS - T.I Verde</title>
+    <title>APS - TI Verde</title>
     <!-- LINKS -->
     <link rel="stylesheet" href="./assets/styles/index.css" />
-    <link rel="shortcut icon" href="./assets/images/TI_Verde-removebg-preview.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/styles/responsividade.css" />
+    <link rel="shortcut icon" href="./assets/images/fav-icon-ti.ico" type="image/x-icon" />
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="top">
       <div class="container">
         <nav class="navigation">
-          <a href="./index.html" class="link-menu">Início</a>
+          <a href="./index.html" class="link-menu selected">Início</a>
           <a href="./historia.html" class="link-menu">História</a>
           <a href="./desafios.html" class="link-menu">Desafios</a>
           <a href="./solucoes.html" class="link-menu">Soluções</a>
@@ -22,17 +23,16 @@
     <section class="banner">
       <div class="container">
         <div class="left">
-          <h1 class="h1">T.I Verde: Tecnologia a Favor da Sustentabilidade</h1>
+          <h1 class="h1">TI Verde - <span>Tecnologia a favor da sustentabilidade.</span></h1>
           <p class="texto-intro">
-            Com o avanço acelerado da tecnologia e a crescente demanda por dispositivos e serviços digitais, surgem
-            também preocupações quanto ao impacto ambiental causado pelo setor de Tecnologia da Informação. Em resposta
-            a esses desafios, o conceito de TI Verde ganha destaque, propondo práticas e soluções que alinham inovação
-            tecnológica à responsabilidade ambiental.
+            Com o avanço da tecnologia e o uso crescente de recursos digitais, aumentam também as preocupações
+            ambientais. A TI Verde propõe soluções sustentáveis que unem inovação e responsabilidade, buscando reduzir
+            os impactos causados pelo setor de tecnologia.
           </p>
         </div>
         <div class="right">
           <img
-            src="./assets/images/imagem-hero.png"
+            src="./assets/images/imagem-banner-main.png"
             alt="Uma lapamda no chão preechida parcialmente com terra e um planta em crescimento"
             class="img-banner"
           />
@@ -42,7 +42,7 @@
     <main class="main">
       <div class="container">
         <section class="section sectoion--oque">
-          <h2 class="h2">O que é T.I Verde?</h2>
+          <h2 class="h2">O que é TI Verde?</h2>
           <p class="texto-basico">
             TI Verde refere-se a um conjunto de estratégias e ações que buscam reduzir os efeitos negativos da
             tecnologia sobre o meio ambiente. Isso envolve desde o desenvolvimento de equipamentos eletrônicos mais
@@ -56,9 +56,14 @@
             também tragam benefícios econômicos e sociais.
           </p>
         </section>
-        <div class="futura-imagem">Vai ter uma imagem aqui</div>
+        <div class="main-imagem">
+          <img
+            src="./assets/images/TI-Verde-home.png"
+            alt="uma ilustração de um notebook se conectando a diversos setores"
+          />
+        </div>
         <section class="section section--importancia">
-          <h2 class="h2">Por que a TI Verde é importante?</h2>
+          <h2 class="h2">Por que é importante?</h2>
           <p class="texto-basico">
             Atualmente, a área de TI representa uma parcela significativa do consumo global de energia e contribui de
             maneira expressiva para a geração de resíduos eletrônicos. Sem práticas sustentáveis, os impactos ambientais
@@ -72,10 +77,16 @@
         </section>
       </div>
     </main>
+    <div class="buttonBackToTop">
+      <a class="backToTop" href="#top" title="voltar ao topo">
+        <i class="fa-regular fa-circle-up"></i>
+      </a>
+    </div>
     <footer class="footer">
       <div class="container">
         <p>Copyright ©2025 - Todos os direitos reservados.</p>
       </div>
     </footer>
+    <script src="https://kit.fontawesome.com/cef3476a3c.js" crossorigin="anonymous"></script>
   </body>
 </html>

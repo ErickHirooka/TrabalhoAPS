@@ -1,0 +1,51 @@
+@media (max-width: 1279px) {
+  .container {
+    padding: 0 2%;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .left {
+    width: 100%;
+    max-width: 600px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .h1 {
+    text-align: center;
+  }
+
+  .buttonBackToTop {
+    opacity: 0.5;
+  }
+
+  .buttonBackToTop:active {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 650px) {
+  :root {
+    font-size: 14px;
+  }
+
+  .texto-basico {
+    text-align: justify;
+  }
+}
+
+@media (max-width: 536px) {
+  :root {
+    font-size: 12px;
+  }
+  .h1 {
+    font-size: 2.5rem;
+  }
+  .h1 span {
+    font-size: 2rem;
+  }
+}
