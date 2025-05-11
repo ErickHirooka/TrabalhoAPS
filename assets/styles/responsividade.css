@@ -23,6 +23,7 @@
     opacity: 0.5;
   }
 
+  .buttonBackToTop:hover,
   .buttonBackToTop:active {
     opacity: 1;
   }
